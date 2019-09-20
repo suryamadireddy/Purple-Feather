@@ -1,46 +1,21 @@
 
 
-The data is showing the crime incidents reported in Boston provided by Boston Police Department (BPD).
-There was a peak between 2016 and 2017 in the crimes reported. There also tends to be a higher number of crimes reported in July/August in all years.
+The data is showing the Global Surface Summary of the Day Weather Data. 
+There is no obvious trend other than the temperature being lower at the end and begining of the year and higher in the middle of the year.
 	
-
-	
-This is the information form our primary dataset, but we did not know how to display the lines of data, and thus it is all unformatted.  
-
-INCIDENT_NUMBER
-OFFENSE_CODE
-OFFENSE_CODE_GROUP
-OFFENSE_DESCRIPTION
-DISTRICT
-REPORTING_AREA
-SHOOTING
-OCCURRED_ON_DATE
-YEAR
-MONTH
-DAY_OF_WEEK
-HOUR
-UCR_PART
-STREET
-Lat
-Long
-Location
-1	I182070945	00619	Larceny	LARCENY ALL OTHERS	D14	808		2018-09-02 13:00:00	2018	9	Sunday	13	Part One	LINCOLN ST	42.35779134	-71.13937053	(42.35779134, -71.13937053)
-2	I182070943	01402	Vandalism	VANDALISM	C11	347		2018-08-21 00:00:00	2018	8	Tuesday	0	Part Two	HECLA ST	42.30682138	-71.06030035	(42.30682138, -71.06030035)
-3	I182070941	03410	Towed	TOWED MOTOR VEHICLE	D4	151		2018-09-03 19:27:00	2018	9	Monday	19	Part Three	CAZENOVE ST	42.34658879	-71.07242943	(42.34658879, -71.07242943)
+The information of our primary dataset files are submimtted seperately as screen shots the first three being datasets on different years and another screenshot of the relation between station number and station information.  
 
 
-Snippit of the Second Data File
- 
-        CODE            NAME
-1	612	LARCENY PURSE SNATCH - NO FORCE
-2	613	LARCENY SHOPLIFTING
-3	615	LARCENY THEFT OF MV PARTS & ACCESSORIES
+
+With our second dataset we hope to gain knowledge on the world health nutrition and if there are any trends occuring over the past few yeats.  
+
+The fourth and fifth screenshots shows what the weather is globally in different years (2017, 2018) 
+
+In utilizing all these files, we hope to gain better understanding on the impact of weather on glocal health. And hopefully more insightful relations between catastrophies and major nutritional changes. 
 
 
-We hope to gain knowledge on what crimes are most committed in Boston and if there is a trend with certain monnths and times of day
-The second file shows what the relationship between the code and the crime is, which will be used to create a relationship between both the datasets. 
-In utilizing both these files, we will gain better understanding in how to create one-to-many(1:m) relationships.
-To gain further understanding of the nature of crimes in Boston, we would like to seek data on Bostons weather reports during the years of 2015-2018 and cross reference weather to times of crimes reported.
-
-Both cvs files can be found on this link : https://data.boston.gov/dataset/crime-incident-reports-august-2015-to-date-source-new-system
-
+All files can be found on this link which links to the public dataset that google stores:
+1. This link is for the weather data
+https://console.cloud.google.com/marketplace/details/noaa-public/gsod?filter=solution-type:dataset&id=c6c1b652-3958-4a47-9e58-552a546df47f&fbclid=IwAR0Zc8lLUBsuioOogoI4lD3iPLUwUXHHOm2BbxjauSNMDBvdp59Oq3nRJkY
+2. This link is for the global nutrition data
+https://console.cloud.google.com/marketplace/details/the-world-bank/global-health?filter=solution-type:dataset&id=f3c38e10-2c45-43c8-8a12-8d749ba987ee&fbclid=IwAR1Uee_d4pfFVMQFg3emiJ0S9uJSosgmDEwb9nH5epxmr_vuVDF8Mzh_8aQ
